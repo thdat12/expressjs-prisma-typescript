@@ -1,0 +1,60 @@
+ib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+
+pids
+logs
+results
+tmp
+dockerfile
+#Build
+public/css/main.css
+
+# API keys and secrets
+.env
+
+
+# Dependency directory
+node_modules
+bower_components
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+# backupData
+# Ignore built ts files
+#dist
+backupData
+build
+test
+docker
+dist
+!docker/docker-compose.yml
+tests
+scripts
+package-lock.json
+code-log.txt
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+.ebextensions
+aws_dockers
+
+# Prisma
+prisma/migrations/
+prisma/dev.db
+prisma/dev.db-journal
+prisma/test.db
+prisma/test.db-journal
+prisma/.env
+prisma/generated/
+prisma/.client/
